@@ -7,7 +7,7 @@ import CardGroups from './components/CardGroup/CardGroups';
 function App() {
   return (
     <div className="App">
-      <Button> My New Button</Button>
+      
       <button> My Normal button</button>
       {/* Import button form other components */}
       {/* Apply the React Bootstap Please see the Video No:51-2 Install React Bootstrap in your react application */}

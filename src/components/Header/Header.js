@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 
 function Header() {
   return (
-    <>
+    <div>
       <Button variant="primary">Primary</Button>{' '}
       <Button variant="secondary">Secondary</Button>{' '}
       <Button variant="success">Success</Button>{' '}
@@ -12,7 +12,7 @@ function Header() {
       <Button variant="light">Light</Button>{' '}
       <Button variant="dark">Dark</Button> 
       <Button variant="link">Link</Button>
-    </>
+    </div>
   );
 }
 
